@@ -83,7 +83,7 @@ export default {
 
         video = await basicFetch(`/movie/${id}/videos?language=pt-BR&api_key=${API_KEY}`);
         let myVideo = JSON.stringify(video);
-        console.log("TMDB "+ myVideo);
+        //console.log("TMDB "+ myVideo);
         return video;
     }
 }
